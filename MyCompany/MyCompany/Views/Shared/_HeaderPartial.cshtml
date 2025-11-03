@@ -1,0 +1,29 @@
+@using Microsoft.Extensions.Configuration
+@using MyCompany.Infrastruction;
+@inject IConfiguration config
+@{
+	AppConfig? appConfig = config.GetSection("Project").Get<AppConfig>();
+}
+<!-- Header Wrapper -->
+<div id="header-wrapper">
+	<div class="container">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Logo -->
+				<h1>
+					<a asp-area="" asp-controller="Home" asp-action="Index" id="Logo">
+                        
+                        @appConfig?.Company.CompanyName
+                    </a>
+				</h1>
+				 @* TODO: ViewComponent*@
+				
+
+			</div>
+		</header>
+
+	</div>
+</div>
