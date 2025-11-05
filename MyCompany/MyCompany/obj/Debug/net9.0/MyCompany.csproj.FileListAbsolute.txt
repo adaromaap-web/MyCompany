@@ -1,0 +1,3 @@
+C:\Users\adaro\source\repos\MyCompany\MyCompany\obj\Debug\net9.0\MyCompany.csproj.AssemblyReference.cache
+C:\Users\adaro\source\repos\MyCompany\MyCompany\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\adaro\source\repos\MyCompany\MyCompany\obj\Debug\net9.0\MyCompany.GeneratedMSBuildEditorConfig.editorconfig
